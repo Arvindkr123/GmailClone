@@ -6,7 +6,7 @@ import LeftPanel from "./LeftPanel";
 const Main = () => {
   const [search, setSearch] = useState("");
   const [subCollect, setSubCollect] = useState("");
-  console.log(subCollect);
+  //console.log(subCollect);
   return (
     <div>
       <Grid container>
