@@ -75,10 +75,18 @@ const Navbar = ({ setSearch }) => {
                 }}
               >
                 <CiSearch
-                  size={25}
-                  style={{ color: "black", marginLeft: "20px" }}
+                  // size={25}
+                  // style={{ color: "black", marginLeft: "20px" }}
+                  style={{
+                    width: "1.3vw",
+                    height: "1.3vw",
+                    alignItems: "center",
+                    marginLeft: "15px",
+                    color: "black",
+                  }}
                 />
                 <input
+                  onChange={(e) => setSearch(e.target.value)}
                   type="text"
                   placeholder="search mail.."
                   style={{
